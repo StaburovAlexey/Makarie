@@ -1,0 +1,9 @@
+.slide__header {
+  color: #ffffff;
+  text-align: left;
+  font: 600 48px "Unbounded", sans-serif;
+  line-height: normal;
+  text-transform: uppercase;
+  max-width: 565.5px;
+  margin: 110px 0 0 105px;
+}

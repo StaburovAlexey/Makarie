@@ -1,0 +1,17 @@
+.slide_1 {
+  background-image: url(../../image/swiper1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide_2 {
+  background-image: url(../../image/swiper2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide_3 {
+  background-image: url(../../image/swiper3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}

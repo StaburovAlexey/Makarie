@@ -1,0 +1,9 @@
+.header__nav-link{
+  text-decoration: none;
+  margin: 0;
+}
+
+.header__nav-link:hover{
+  color: #F15A29;
+  cursor: pointer;
+}

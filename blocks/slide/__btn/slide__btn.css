@@ -1,0 +1,12 @@
+.slide__btn {
+  border-radius: 25px;
+  border: 2px solid #FFF;
+  background-color: transparent;
+  width: 185px;
+  height: 40px;
+  color: #ffffff;
+  font: 500 12px "Unbounded", sans-serif;
+  text-transform: uppercase;
+  margin: 89px 0 0 105px;
+  cursor: pointer;
+}

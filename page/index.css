@@ -1,0 +1,15 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/itc-slider.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__nav-link/header__nav-link.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/btn-reserve/btn-reserve.css);
+@import url(../blocks/slide/slide.css);
+@import url(../blocks/slide/__text/slide__text.css);
+@import url(../blocks/slide/__header/slide__header.css);
+@import url(../blocks/slide/__btn/slide__btn.css);
+@import url();
+@import url();
+@import url();

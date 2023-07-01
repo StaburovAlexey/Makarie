@@ -1,0 +1,18 @@
+.btn-reserve {
+  background: #f15a29;
+  border-radius: 25px;
+  width: 185px;
+  height: 40px;
+  border: none;
+  color: #ffffff;
+  text-align: left;
+  font: 500 12px "Unbounded", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 31px 0 0 0;
+}
+
+.btn-reserve:hover {
+  background: #0062BD;
+  cursor: pointer;
+}

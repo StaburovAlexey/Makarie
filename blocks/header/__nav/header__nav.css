@@ -1,0 +1,10 @@
+.header__nav{
+  display: flex;
+  justify-content: space-between;
+  min-width: 750px;
+  margin: 49px 0 0 0;
+  color: #0e4d8e;
+  font: 600 14px "Montserrat", sans-serif;
+  
+
+}

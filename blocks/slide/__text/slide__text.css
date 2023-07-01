@@ -1,0 +1,10 @@
+.slide__text {
+  color: #ffffff;
+  text-align: left;
+  font: 600 16px "Montserrat", sans-serif;
+  max-width: 394px;
+  height: 160px;
+  margin: 20px 0 0 105px;
+  font-style: normal;
+  line-height: normal;
+}
