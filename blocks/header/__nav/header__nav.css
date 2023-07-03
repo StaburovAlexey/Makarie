@@ -19,3 +19,22 @@
     width: 60%;
   }
 }
+
+@media screen and (max-width: 2560px) {
+  .header__nav{
+    font-size: 30px;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 2200px) {
+  .header__nav{
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  .header__nav{
+    font-size: 14px;
+  }
+}
