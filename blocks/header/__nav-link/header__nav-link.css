@@ -1,6 +1,8 @@
 .header__nav-link{
   text-decoration: none;
   margin: 0;
+  color: #0e4d8e;
+  font: 600 14px "Montserrat", sans-serif;
 }
 
 .header__nav-link:hover{

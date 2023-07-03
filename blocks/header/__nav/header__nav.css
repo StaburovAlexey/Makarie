@@ -1,10 +1,21 @@
-.header__nav{
+.header__nav {
   display: flex;
   justify-content: space-between;
-  min-width: 750px;
+  width: 750px;
   margin: 49px 0 0 0;
-  color: #0e4d8e;
-  font: 600 14px "Montserrat", sans-serif;
   
+}
 
+@media screen and (min-width: 1281px) {
+  .header__nav {
+    font-size: 1.3vw;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__nav {
+    font-size: 1.2vw;
+    width: 60%;
+  }
 }

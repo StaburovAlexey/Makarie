@@ -9,32 +9,39 @@
 
 .itc-slider {
   position: relative;
-  margin: 14px auto 0;
-  max-width: 1232px;
+  width: calc(100% - 48px);
+  margin: 14px auto 142px;
+
 
 }
 
 .img {
   background-image: url(../image/blueDot.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   position: absolute;
   z-index: -1;
   left: 0;
   bottom: -142px;
-  width: 507px;
+  width: 512px;
   height: 470px;
 }
 
 .itc-slider-wrapper {
   overflow: hidden;
   background-color: transparent;
+
+
+
 }
 
 .itc-slider-items {
   display: flex;
   transition: transform 0.5s ease;
   will-change: transform;
-  max-width: 1232px;
-  height: 620px;
+  background-color: transparent;
+
 }
 
 .itc-slider-transition-none {
@@ -44,10 +51,11 @@
 .itc-slider-item {
   flex: 0 0 100%;
   width: 100%;
+  aspect-ratio: 2 / 1;
   user-select: none;
   will-change: transform;
   overflow: hidden;
-  border-radius: 50px;
+  border-radius: 6%;
 }
 
 /* кнопки влево и вправо */

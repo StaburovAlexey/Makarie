@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Unbounded';
+  src: url(./Unbounded-Bold.woff2) format('woff2'), url(./Unbounded-Bold.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  src: url(./Unbounded-Medium.woff2) format('woff2'), url(./Unbounded-Medium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url(./Montserrat-Medium.woff2) format('woff2'), url(./Montserrat-Medium.woff) format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url(./Montserrat-SemiBold.woff2) format('woff2'), url(./Montserrat-SemiBold.woff) format('woff');
+	font-weight: 600;
+	font-style: normal;
+}

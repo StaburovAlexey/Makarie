@@ -7,3 +7,17 @@
   background-size: contain;
   margin: 16px 0 21px 0;
 }
+
+@media screen and (max-width: 2560px){
+  .header__logo{
+    width: 210px;
+    height: 102px;
+  }
+}
+
+@media screen and (max-width: 1900px){
+  .header__logo{
+    width: 105px;
+    height: 51px;
+  }
+}

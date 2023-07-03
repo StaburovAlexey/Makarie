@@ -1,0 +1,12 @@
+.section-header__text {
+  width: 322px;
+  color: #0062BD;
+  font-size: 40px;
+  font-family: 'Unbounded', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: left;
+}

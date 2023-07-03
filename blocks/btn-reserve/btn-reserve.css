@@ -16,3 +16,19 @@
   background: #0062BD;
   cursor: pointer;
 }
+
+@media screen and (max-width: 2560px) {
+  .btn-reserve{
+    width: 370px;
+    height: 80px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1900px){
+  .btn-reserve{
+    width: 185px;
+    height: 40px;
+    font-size: 12px;
+  }
+}
