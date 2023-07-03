@@ -9,3 +9,15 @@
   color: #F15A29;
   cursor: pointer;
 }
+
+@media screen and (min-width: 1281px) {
+  .header__nav-link {
+    font-size: 1.3vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__nav-link {
+    font-size: 1.1vw;
+  }
+}

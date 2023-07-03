@@ -1,0 +1,6 @@
+.btn-next_end {
+  background-image: url(../../../image/btn-next_end.svg);
+  transform: rotate(0);
+  width: 80px;
+  height: 40px;
+}

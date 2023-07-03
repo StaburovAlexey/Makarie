@@ -1,0 +1,8 @@
+.terrain-section__header {
+  color: #0062bd;
+  text-align: left;
+  font: 700 24px "Unbounded", sans-serif;
+  text-transform: uppercase;
+  max-width: 394px;
+  margin: 58px 0 25px;
+}

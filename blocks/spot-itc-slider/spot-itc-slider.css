@@ -1,0 +1,12 @@
+.spot-itc-slider {
+  background-image: url(../../image/blueDot.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: -142px;
+  width: 512px;
+  height: 470px;
+}

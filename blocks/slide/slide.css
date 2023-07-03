@@ -1,20 +1,16 @@
-.slide_1 {
+.slide {
   background-image: url(../../image/swiper1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.slide_2 {
+.slide:nth-child(2) {
   background-image: url(../../image/swiper2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
-.slide_3 {
+.slide:nth-child(3) {
   background-image: url(../../image/swiper3.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }

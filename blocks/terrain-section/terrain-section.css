@@ -1,0 +1,6 @@
+.terrain-section {
+  margin: 124px auto 0;
+  width: calc(100% - 142px);
+  display: flex;
+  gap: 24px;
+}

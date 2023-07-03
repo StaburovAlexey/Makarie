@@ -1,0 +1,8 @@
+.terrain-section__text {
+  color: #000000;
+  text-align: left;
+  font: 500 14px "Montserrat", sans-serif;
+  position: relative;
+  max-width: 394px;
+  margin: 0 0 55px;
+}

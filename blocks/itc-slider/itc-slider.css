@@ -15,23 +15,10 @@
 
 }
 
-.img {
-  background-image: url(../image/blueDot.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  bottom: -142px;
-  width: 512px;
-  height: 470px;
-}
 
 .itc-slider-wrapper {
   overflow: hidden;
   background-color: transparent;
-
 
 
 }
@@ -128,7 +115,7 @@
 }
 
 .itc-slider-indicator {
-  background-image: url(../image/non.svg);
+  background-image: url(../../image/non.svg);
   width: 20px;
   height: 20px;
   background-position: center;
@@ -138,7 +125,7 @@
 }
 
 .itc-slider-indicator-active {
-  background-image: url(../image/yes.svg);
+  background-image: url(../../image/yes.svg);
   width: 16px;
   height: 16px;
 }

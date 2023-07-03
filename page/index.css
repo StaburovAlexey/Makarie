@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-@import url(../vendor/itc-slider.css);
+@import url(../blocks/itc-slider/itc-slider.css);
+@import url(../blocks/spot-itc-slider/spot-itc-slider.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__nav/header__nav.css);
@@ -25,3 +26,4 @@
 @import url(../blocks/terrain-section/__header/terrain-section__header.css);
 @import url(../blocks/terrain-section/__img/terrain-section__img.css);
 @import url(../blocks/terrain-section/__text/terrain-section__text.css);
+@import url(../blocks/terrain-section/__info/terrain-section__info.css);

@@ -1,0 +1,9 @@
+.btn-prev {
+  width: 40px;
+  height: 40px;
+  background-image: url(../../image/btn-prev.svg);
+  background-position: center;
+  background-size: cover;
+  border: none;
+  background-color: transparent;
+}

@@ -1,0 +1,4 @@
+.terrain-section__btns {
+  display: flex;
+  gap: 68px;
+}

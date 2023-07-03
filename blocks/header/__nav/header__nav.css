@@ -3,19 +3,17 @@
   justify-content: space-between;
   width: 750px;
   margin: 49px 0 0 0;
-  
+
 }
 
 @media screen and (min-width: 1281px) {
   .header__nav {
-    font-size: 1.3vw;
-    width: 60%;
+    width: 70%;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .header__nav {
-    font-size: 1.2vw;
     width: 60%;
   }
 }
