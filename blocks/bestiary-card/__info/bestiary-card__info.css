@@ -1,0 +1,6 @@
+.bestiary-card__info {
+  margin: 30px 0 0 105px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

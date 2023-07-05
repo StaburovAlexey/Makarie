@@ -1,0 +1,48 @@
+@keyframes algae_trembling {
+  0% {
+    transform: rotate(0);
+    left: 30px;
+    top: 0;
+  }
+
+  20% {
+    transform: rotate(7.7deg);
+    left: 69.3px;
+    top: -12px;
+  }
+
+  40% {
+    transform: rotate(6.3deg);
+    left: 55.7px;
+    top: -8px;
+  }
+
+  60% {
+    transform: rotate(7.35deg);
+    left: 66.15px;
+    top: -11px;
+  }
+
+  80% {
+    transform: rotate(6.65deg);
+    left: 59.85px;
+    top: -9px;
+  }
+
+  100% {
+    transform: rotate(7deg);
+    left: 63px;
+    top: -10px;
+  }
+
+
+}
+
+.algae-trembling {
+  animation-name: algae_trembling;
+  animation-duration: 3.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}

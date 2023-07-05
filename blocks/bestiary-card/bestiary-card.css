@@ -1,0 +1,5 @@
+.bestiary-card {
+  max-width: 290px;
+  box-sizing: border-box;
+  display: block;
+}

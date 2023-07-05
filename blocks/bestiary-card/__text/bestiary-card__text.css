@@ -1,0 +1,18 @@
+.bestiary-card__text {
+  color: #F15A29;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+
+.bestiary-card__text:last-child {
+  color: #000;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

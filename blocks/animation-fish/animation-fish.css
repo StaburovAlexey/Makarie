@@ -1,0 +1,8 @@
+.animation-fish {
+  width: 100%;
+  height: 340px;
+  border-radius: 90px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}

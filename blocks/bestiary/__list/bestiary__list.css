@@ -1,0 +1,9 @@
+.bestiary__list {
+  margin: 120px 0 0;
+  padding: 0;
+  list-style: none;
+  gap: 60px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -27,3 +27,15 @@
 @import url(../blocks/terrain-section/__img/terrain-section__img.css);
 @import url(../blocks/terrain-section/__text/terrain-section__text.css);
 @import url(../blocks/terrain-section/__info/terrain-section__info.css);
+@import url(../blocks/bestiary/bestiary.css);
+@import url(../blocks/bestiary/__list/bestiary__list.css);
+@import url(../blocks/bestiary-card/bestiary-card.css);
+@import url(../blocks/bestiary-card/__animation/bestiary-card__animation.css);
+@import url(../blocks/bestiary-card/__header/bestiary-card__header.css);
+@import url(../blocks/bestiary-card/__info/bestiary-card__info.css);
+@import url(../blocks/bestiary-card/__text/bestiary-card__text.css);
+@import url(../blocks/orange-dot-bestiary/orange-dot-bestiary.css);
+@import url(../blocks/animation-fish/animation-fish.css);
+@import url(../blocks/animation-fish/__algae/animation-fish__algae.css);
+@import url(../blocks/animation-fish/__background/animation-fish__background.css);
+@import url(../blocks/animation-fish/__fish/animation-fish__fish.css);
