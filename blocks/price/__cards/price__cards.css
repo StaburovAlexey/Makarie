@@ -1,0 +1,10 @@
+.price__cards {
+  margin: 123px 0 0;
+  list-style: none;
+  padding: 0 181px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 33px 24px;
+  justify-content: center;
+
+}

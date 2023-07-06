@@ -39,3 +39,11 @@
 @import url(../blocks/animation-fish/__algae/animation-fish__algae.css);
 @import url(../blocks/animation-fish/__background/animation-fish__background.css);
 @import url(../blocks/animation-fish/__fish/animation-fish__fish.css);
+@import url(../blocks/price/price.css);
+@import url(../blocks/price/__card-header/price__card-header.css);
+@import url(../blocks/price/__card-list/price__card-list.css);
+@import url(../blocks/price/__card-price/price__card-price.css);
+@import url(../blocks/price/__card/price__card.css);
+@import url(../blocks/price/__cards/price__cards.css);
+@import url(../blocks/orange-dot-price/orange-dot-price.css);
+@import url(../blocks/blue-dot-price/blue-dot-price.css);

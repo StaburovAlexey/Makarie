@@ -1,0 +1,13 @@
+.price__card-price {
+  color: #FFF;
+  font-family: Unbounded;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  bottom: 17px;
+  left: 20px;
+}

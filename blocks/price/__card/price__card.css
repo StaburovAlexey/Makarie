@@ -1,0 +1,13 @@
+.price__card {
+  padding: 18px 0 0 23px;
+  width: 290px;
+  height: 360px;
+  background: linear-gradient(#0062BD, #0066FF);
+  border-radius: 25px 25px 100px 25px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+}
+
+
