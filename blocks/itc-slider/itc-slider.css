@@ -12,7 +12,6 @@
   width: calc(100% - 48px);
   margin: 14px auto 142px;
 
-
 }
 
 
@@ -38,11 +37,11 @@
 .itc-slider-item {
   flex: 0 0 100%;
   width: 100%;
-  aspect-ratio: 2 / 1;
+  aspect-ratio: 2/1;
   user-select: none;
   will-change: transform;
   overflow: hidden;
-  border-radius: 6%;
+  border-radius: 50px;
 }
 
 /* кнопки влево и вправо */

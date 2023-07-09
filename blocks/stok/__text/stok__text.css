@@ -1,0 +1,10 @@
+.stok__text {
+  color: #ffffff;
+  text-align: left;
+  font: 600 32px "Montserrat", sans-serif;
+  margin: 0 0 10px 53px;
+}
+
+.stok__text:nth-child(3) {
+  font: 600 24px "Montserrat", sans-serif;
+}

@@ -1,0 +1,7 @@
+.subscription__cards {
+  margin: 120px auto 0;
+  width: calc(100% - 128px - 128px);
+  display: flex;
+  justify-content:space-between;
+  gap: 26px;
+}

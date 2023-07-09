@@ -1,0 +1,11 @@
+.subscription__price-block-text {
+  color: #0062BD;
+  font-family: "Unbounded";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+  max-width: 171px;
+}

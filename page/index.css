@@ -30,7 +30,6 @@
 @import url(../blocks/bestiary/bestiary.css);
 @import url(../blocks/bestiary/__list/bestiary__list.css);
 @import url(../blocks/bestiary-card/bestiary-card.css);
-@import url(../blocks/bestiary-card/__animation/bestiary-card__animation.css);
 @import url(../blocks/bestiary-card/__header/bestiary-card__header.css);
 @import url(../blocks/bestiary-card/__info/bestiary-card__info.css);
 @import url(../blocks/bestiary-card/__text/bestiary-card__text.css);
@@ -47,3 +46,27 @@
 @import url(../blocks/price/__cards/price__cards.css);
 @import url(../blocks/orange-dot-price/orange-dot-price.css);
 @import url(../blocks/blue-dot-price/blue-dot-price.css);
+@import url(../blocks/algae-trembling/algae-trembling.css);
+@import url(../blocks/fish-trembling/fish-trembling.css);
+@import url(../blocks/stok/stok.css);
+@import url(../blocks/stok/__card/stok__card.css);
+@import url(../blocks/stok/__header/stok__header.css);
+@import url(../blocks/stok/__icon/stok__icon.css);
+@import url(../blocks/stok/__text/stok__text.css);
+@import url(../blocks/stok/__btn-right/stok__btn-right.css);
+@import url(../blocks/stok/__btn-left/stok__btn-left.css);
+@import url(../blocks/subscription/subscription.css);
+@import url(../blocks/subscription/__card/subscription__card.css);
+@import url(../blocks/subscription/__cards/subscription__cards.css);
+@import url(../blocks/subscription/__img-card/subscription__img-card.css);
+@import url(../blocks/subscription/__price-block-price/subscription__price-block-price.css);
+@import url(../blocks/subscription/__price-block-price/subscription__price-block-price.css);
+@import url(../blocks/subscription/__price-block-text/subscription__price-block-text.css);
+@import url(../blocks/subscription/__price-block/subscription__price-block.css);
+@import url(../blocks/subscription/__text/subscription__text.css);
+
+
+
+
+
+

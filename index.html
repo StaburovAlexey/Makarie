@@ -24,13 +24,14 @@
     <button class="btn-reserve">забронировать</button>
   </header>
   <main class="main">
-    <section class="itc-slider" data-slider="itc-slider" data-loop="true" data-interval="4000" data-autoplay="true">
+    <section class="itc-slider " data-slider="itc-slider" data-loop="true" data-interval="4000" data-autoplay="true">
       <div class="itc-slider-wrapper">
         <div class="itc-slider-items">
           <div class="itc-slider-item slide">
             <h1 class="slide__header">Трофейная
               рыбалка</h1>
-            <p class="slide__text">Поймайте рыбу свыше 5 кг, вызовите егеря, зарегистрируйте свою удачу, отпустите рыбу
+            <p class="slide__text">Поймайте рыбу свыше 5 кг, вызовите егеря, зарегистрируйте свою удачу, отпустите
+              рыбу
               и получите бесплатную рыбалку на следующее посещение.
               Акция действует только при условии отпуска рыбы в водоем БЕЗ травм.
 
@@ -43,7 +44,7 @@
             <p class="slide__text">Приезжайте в Макарье с фиременной наклейкой
               на Вашем автомобиле и получите скидку 15% на весь асортимент наших товаров и услуг.
               Акция действует только на владельца автомобиля с фирменной наклейкой.</p>
-            <button class="slide__btn">подробнее</button>
+            <button class="slide__btn__btn">подробнее</button>
           </div>
           <div class="itc-slider-item slide">
             <h1 class="slide__header">Наши<br>
@@ -65,7 +66,6 @@
         <li class="itc-slider-indicator" data-slide-to="1"></li>
         <li class="itc-slider-indicator" data-slide-to="2"></li>
       </ol>
-      <div class="spot-itc-slider"></div>
     </section>
     <div class="terrain">
       <div class="section-header">
@@ -123,7 +123,7 @@
         <li class="bestiary-card">
           <div class="animation-fish">
             <div class="animation-fish__background"></div>
-            <img src="./image/sudak.png" alt="" class="animation-fish__fish">
+            <img src="./image/okun.png" alt="" class="animation-fish__fish">
             <img src="./image/algae.png" alt="" class="animation-fish__algae">
           </div>
           <div class="bestiary-card__info">
@@ -301,12 +301,54 @@
           <h3 class="price__card-header">Аренда домов</h3>
           <p class="price__card-price">от 8000 &#8381;</p>
         </li>
-
       </ul>
       <img src="./image/blue-dot-price.png" alt="" class="blue-dot-price">
     </div>
+    <div class="stok">
+      <div class="section-header">
+        <img src="./image/animation.svg" alt="" class="section-header__animation">
+        <h2 class="section-header__text">акции</h2>
+      </div>
+      <div class="stok__card">
+        <div>
+          <h2 class="stok__header">Трофейная рыбалка</h2>
+          <p class="stok__text">Подарочная рыбалка за трофей свыше 5 кг</p>
+          <p class="stok__text">* при условии отпуска рыбы в водоем без травм</p>
+        </div>
+        <img src="./image/stok.png" alt="" class="stok__icon">
+        <button class="stok__btn-right"></button>
+        <button class="stok__btn-left"></button>
+      </div>
+    </div>
+    <div class="subscription">
+      <div class="section-header">
+        <img src="./image/animation.svg" alt="" class="section-header__animation">
+        <h2 class="section-header__text">абонементы</h2>
+      </div>
+      <div class="subscription__cards">
+        <div class="subscription__card">
+          <img src="./image/subscription-card-blue.png" alt="" class="subscription__img-card">
+          <p class="subscription__text">Клубная карта дает право на неограниченное посещение рыболовного клуба в период:
+            с апреля по декабрь 2023 года включительно. Самовылов не более 5 кг/сутки, с ограничением на 4 удочки.</p>
+          <div class="subscription__price-block">
+            <p class="subscription__price-block-text">Стоимость:</p>
+            <p class="subscription__price-block-price">16 000 &#8381;</p>
+          </div>
+        </div>
+        <div class="subscription__card">
+          <img src="./image/subscription-card-white.png" alt="" class="subscription__img-card">
+          <p class="subscription__text">Клубная карта право на неограниченное посещение рыболовного клуба в период: с
+            апреля по декабрь 2023 года включительно. Самовылов не более 3 кг/сутки, с ограничением на 4 удочки.</p>
+          <div class="subscription__price-block">
+            <p class="subscription__price-block-text">Стоимость:</p>
+            <p class="subscription__price-block-price">12 000 &#8381;</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   <script src="./scripts/itc-slider.js" defer></script>
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>

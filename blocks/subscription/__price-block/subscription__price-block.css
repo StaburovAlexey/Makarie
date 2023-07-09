@@ -1,0 +1,6 @@
+.subscription__price-block {
+  display: flex;
+  width: 445px;
+  justify-content: space-between;
+  margin: 0 auto;
+}

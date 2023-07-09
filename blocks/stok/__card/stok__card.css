@@ -1,0 +1,9 @@
+.stok__card {
+  margin: 120px auto 0;
+  width: calc(100% - 258px);
+  border-radius: 50px;
+  background: linear-gradient(180deg, #F15A29 0%, #FF6B00 100%);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}

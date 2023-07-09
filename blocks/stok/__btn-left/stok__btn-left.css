@@ -1,0 +1,12 @@
+.stok__btn-left {
+  background-image: url(../../../image/stok__btn-left.png);
+  min-width: 40px;
+  min-height: 40px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: calc(-40px - 26px);
+}
