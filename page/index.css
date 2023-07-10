@@ -64,9 +64,16 @@
 @import url(../blocks/subscription/__price-block-text/subscription__price-block-text.css);
 @import url(../blocks/subscription/__price-block/subscription__price-block.css);
 @import url(../blocks/subscription/__text/subscription__text.css);
-
-
-
+@import url(../blocks/orange-dot-subscription/orange-dot-subscription.css);
+@import url(../blocks/rules/rules.css);
+@import url(../blocks/rules/__card-img/rules__card-img.css);
+@import url(../blocks/rules/__card-text/rules__card-text.css);
+@import url(../blocks/rules/__card/rules__card.css);
+@import url(../blocks/rules/__cards/rules__cards.css);
+@import url(../blocks/rules/__info-header/rules__info-header.css);
+@import url(../blocks/rules/__info-text/rules__info-text.css);
+@import url(../blocks/rules/__info/rules__info.css);
+@import url(../blocks/rules/__section/rules__section.css);
 
 
 

@@ -1,0 +1,6 @@
+.rules__section {
+  margin: 120px auto 0;
+  width: calc(100% - 154px);
+  display: flex;
+  justify-content: space-between;
+}

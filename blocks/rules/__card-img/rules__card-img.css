@@ -1,0 +1,6 @@
+.rules__card-img {
+  width: 81px;
+  height: 81px;
+  object-fit: contain;
+  object-position: center;
+}

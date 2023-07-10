@@ -1,0 +1,6 @@
+.rules__card {
+  display: flex;
+  max-width: 290px;
+  height: 81px;
+  gap: 25px;
+}

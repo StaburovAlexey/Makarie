@@ -1,0 +1,9 @@
+.rules__cards {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 30px 24px;
+  grid-template-columns: repeat(2, 290px);
+
+}

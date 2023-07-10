@@ -1,0 +1,11 @@
+.rules__info-header {
+  color: #F15A29;
+  font-family: "Unbounded", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  max-width: 415px;
+  margin: 0 0 20px 0;
+}

@@ -1,0 +1,15 @@
+.rules__card-text {
+  margin: 0;
+  align-self: center;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.rules__card-text span {
+  color: #F15A29;
+  font-weight: 700;
+}

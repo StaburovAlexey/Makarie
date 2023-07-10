@@ -1,16 +1,14 @@
-.subscription__text {
-  margin: 0 auto;
-  max-width: 445px;
+.rules__info-text {
   color: #000;
   font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-
+  max-width: 499px;
+  margin: 0 0 0 0;
 }
 
-.subscription__text span {
-  color: #0062BD;
-  font-weight: 600;
+.rules__info-text:last-child {
+  margin: 20px 0 0 0;
 }
