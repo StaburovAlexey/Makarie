@@ -74,6 +74,16 @@
 @import url(../blocks/rules/__info-text/rules__info-text.css);
 @import url(../blocks/rules/__info/rules__info.css);
 @import url(../blocks/rules/__section/rules__section.css);
-
-
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__img/reviews__img.css);
+@import url(../blocks/reviews/__name/reviews__name.css);
+@import url(../blocks/reviews/__star/reviews__star.css);
+@import url(../blocks/reviews/__stars/reviews__stars.css);
+@import url(../blocks/reviews/__text/reviews__text.css);
+@import url(../blocks/reviews-slider/reviews-slider.css);
+@import url(../blocks/reviews-slider/__button-next/reviews-slider__button-next.css);
+@import url(../blocks/reviews-slider/__button-prev/reviews-slider__button-prev.css);
+@import url(../blocks/reviews-slider/__pagination/reviews-slider__pagination.css);
+@import url(../blocks/reviews-slider/__slide/reviews-slider__slide.css);
+@import url(../blocks/reviews-slider/__wrapper/reviews-slider__wrapper.css);
 

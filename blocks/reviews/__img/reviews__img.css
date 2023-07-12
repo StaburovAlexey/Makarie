@@ -1,0 +1,9 @@
+.reviews__img {
+  width: 100%;
+  aspect-ratio: 1/0.8;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50px;
+  display: block;
+}
+

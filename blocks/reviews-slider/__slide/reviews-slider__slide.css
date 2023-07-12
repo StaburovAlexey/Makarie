@@ -1,0 +1,8 @@
+.reviews-slider__slide {
+  width: 290px;
+  flex-shrink: 0;
+}
+
+.reviews-slider__slide:first-of-type {
+  width: 395px;
+}

@@ -1,0 +1,12 @@
+.reviews-slider__button-prev {
+  background-image: url(../../../image/reviews-btn-slider-left.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: 0;
+  left: 0;
+
+}

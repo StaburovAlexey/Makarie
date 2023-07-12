@@ -1,6 +1,3 @@
-
-
-
 class tremblingAnimation {
   constructor(animationBlock, animationClass) {
     this._block = document.querySelectorAll(animationBlock);

@@ -1,0 +1,11 @@
+.reviews-slider__button-next {
+  background-image: url(../../../image/reviews-btn-slider-right.png);
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
