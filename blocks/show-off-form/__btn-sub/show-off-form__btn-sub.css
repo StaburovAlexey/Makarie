@@ -1,0 +1,17 @@
+.show-off-form__btn-sub {
+  width: 253px;
+  height: 39px;
+  background-color: #0062BD;
+  border: none;
+  border-radius: 25px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Unbounded", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  flex-shrink: 0;
+
+}

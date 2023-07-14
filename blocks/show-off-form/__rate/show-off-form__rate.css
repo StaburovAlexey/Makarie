@@ -1,0 +1,16 @@
+.show-off-form__rate {
+  margin: 20px 0 0 0;
+}
+
+
+.show-off-form__rate>span {
+  color: #0062BD;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  vertical-align:top;
+  height: 24px;
+  margin-right: 22px;
+}

@@ -1,0 +1,6 @@
+.blue-dot-review {
+  position: absolute;
+  right: 0;
+  top: -142px;
+  z-index: -1;
+}

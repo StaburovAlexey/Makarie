@@ -1,0 +1,17 @@
+.show-off-form__rate-item {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+}
+
+.show-off-form__rate-item:checked,
+.show-off-form__rate-item:checked ~ .show-off-form__rate-item-label {
+background-image: url(../../../image/stars_orange.png);
+background-repeat: no-repeat;
+
+}

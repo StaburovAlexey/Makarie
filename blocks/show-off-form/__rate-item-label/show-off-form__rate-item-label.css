@@ -1,0 +1,22 @@
+.show-off-form__rate-item-label {
+  flex: 0 0 20%;
+  height: 100%;
+  cursor: pointer;
+
+
+}
+
+.show-off-form__rate-item-label::before {
+  content: '';
+  display: block;
+  top: 0;
+  left: 0;
+}
+
+.show-off-form__rate-item-label:hover,
+.show-off-form__rate-item-label:hover ~ .show-off-form__rate-item-label,
+.show-off-form__rate-item-label:checked ~ .show-off-form__rate-item-label:hover {
+background-image: url(../../../image/stars_orange.png);
+background-repeat: no-repeat;
+display: block;
+}

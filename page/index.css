@@ -86,4 +86,17 @@
 @import url(../blocks/reviews-slider/__pagination/reviews-slider__pagination.css);
 @import url(../blocks/reviews-slider/__slide/reviews-slider__slide.css);
 @import url(../blocks/reviews-slider/__wrapper/reviews-slider__wrapper.css);
-
+@import url(../blocks/blue-dot-reviews/blue-dot-reviews.css);
+@import url(../blocks/show-off/show-off.css);
+@import url(../blocks/show-off-form/show-off-form.css);
+@import url(../blocks/show-off-form/__btn-sub/show-off-form__btn-sub.css);
+@import url(../blocks/show-off-form/__img/show-off-form__img.css);
+@import url(../blocks/show-off-form/__name-tel/show-off-form__name-tel.css);
+@import url(../blocks/show-off-form/__rate-item-label/show-off-form__rate-item-label.css);
+@import url(../blocks/show-off-form/__rate-items/show-off-form__rate-items.css);
+@import url(../blocks/show-off-form/__rate/show-off-form__rate.css);
+@import url(../blocks/show-off-form/__review/show-off-form__review.css);
+@import url(../blocks/show-off-form/__section-rate-items/show-off-form__section-rate-items.css);
+@import url(../blocks/show-off-form/__rate-item/show-off-form__rate-item.css);
+@import url(../blocks/show-off-form/__section-btn-sub/show-off-form__section-btn-sub.css);
+@import url(../blocks/orange-dot-show-off/orange-dot-show-off.css);

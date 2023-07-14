@@ -1,0 +1,17 @@
+.show-off-form__section-btn-sub {
+  display: flex;
+  gap: 17px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.show-off-form__section-btn-sub>p {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  vertical-align: middle;
+}

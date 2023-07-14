@@ -1,0 +1,38 @@
+.show-off-form__name-tel {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px 24px;
+}
+
+.show-off-form__name-tel>input {
+  width: 395px;
+  height: 40px;
+  display: block;
+  padding: 0 0 0 20px;
+  margin: 0;
+  flex: 1;
+  flex-shrink: 0;
+  border-radius: 25px;
+  border: 2px solid #AEAEAE;
+  color: #AEAEAE;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.show-off-form__name-tel>textarea {
+  width: 100%;
+  border-radius: 25px;
+  border: 2px solid #AEAEAE;
+  background: #FFF;
+  color: #AEAEAE;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 19px 0 0 20px;
+}
