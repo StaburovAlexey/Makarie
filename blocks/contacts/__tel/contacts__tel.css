@@ -1,0 +1,4 @@
+.contacts__tel {
+  width: 185px;
+  flex-shrink: 0;
+}

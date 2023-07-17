@@ -1,0 +1,4 @@
+.contacts__map {
+  margin: 75px auto 0;
+  width: calc(100% - 48px);
+}

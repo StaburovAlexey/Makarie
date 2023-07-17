@@ -1,0 +1,6 @@
+.blue-dot-contacts {
+  position: absolute;
+  top: -200px;
+  right: 0;
+  z-index: -1;
+}
