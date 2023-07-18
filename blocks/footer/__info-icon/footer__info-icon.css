@@ -1,0 +1,24 @@
+.footer__info-icon {
+  width: 28px;
+  aspect-ratio: 1/1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.footer__info-icon:nth-of-type(1) {
+  background-image: url(../../../image/Telegram-icon.png);
+}
+
+.footer__info-icon:nth-of-type(2) {
+  background-image: url(../../../image/Whatsapp-icon.png);
+}
+
+.footer__info-icon:nth-of-type(3) {
+  background-image: url(../../../image/Vk-icon.png);
+}
+
+.footer__info-icon:nth-of-type(4) {
+  background-image: url(../../../image/cib_odnoklassniki-icon.png);
+}

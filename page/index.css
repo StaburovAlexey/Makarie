@@ -109,3 +109,12 @@
 @import url(../blocks/contacts/__tel/contacts__tel.css);
 @import url(../blocks/contacts/__text-info/contacts__text-info.css);
 @import url(../blocks/blue-dot-contacts/blue-dot-contacts.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__info-conf/footer__info-conf.css);
+@import url(../blocks/footer/__info-icon/footer__info-icon.css);
+@import url(../blocks/footer/__info-icons/footer__info-icons.css);
+@import url(../blocks/footer/__info-tel/footer__info-tel.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+

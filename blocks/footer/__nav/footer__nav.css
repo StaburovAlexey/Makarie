@@ -1,0 +1,27 @@
+.footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 89px;
+  margin: 47px 0 0 59px;
+  padding: 0;
+  list-style: none;
+  gap: 20px;
+}
+
+.footer__nav:nth-of-type(2) {
+  width: 123px;
+  margin-left: 33px;
+}
+
+
+.footer__nav>li {
+  color: #ffffff;
+  text-align: left;
+  font: 600 14px "Montserrat", sans-serif;
+  width: 100%;
+}
+
+.footer__nav>li:hover {
+  color: #f15a29;
+  cursor: pointer;
+}
