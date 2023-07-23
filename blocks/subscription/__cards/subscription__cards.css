@@ -2,6 +2,15 @@
   margin: 120px auto 0;
   width: calc(100% - 128px - 128px);
   display: flex;
-  justify-content:space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 26px;
+}
+
+@media screen and (max-width: 767px) {
+  .subscription__cards {
+    margin: 40px auto 0;
+    width: 100%;
+    gap: 40px;
+  }
 }

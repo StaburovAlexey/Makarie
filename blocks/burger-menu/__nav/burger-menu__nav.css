@@ -1,0 +1,7 @@
+.burger-menu__nav{
+  background-color: #0062BD;
+  width: calc(100% - 32px);
+  margin: 0 auto 0;
+  border-radius: 0px 0px 25px 25px;
+
+}

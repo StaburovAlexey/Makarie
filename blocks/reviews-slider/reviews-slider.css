@@ -1,6 +1,18 @@
 .reviews-slider {
-  width: 100%;
-  height: 678px;
-  margin: 120px 0 0 0;
+  width: calc(100% - 48px);
+  min-height: 678px;
+  margin: 120px auto 0;
   position: relative;
+  overflow: hidden;
 }
+
+@media screen and (max-width: 425px){
+  .reviews-slider {
+    width: calc(100% - 16px);
+    margin: 46px 0 0 16px;
+    min-height: 468px;
+    padding-bottom: 80px;
+  }
+}
+
+

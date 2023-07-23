@@ -1,0 +1,12 @@
+.reviews-slider__pagination {
+  position: absolute;
+  z-index: -1;
+  bottom: 10px;
+  left: 54px;
+}
+
+@media screen and (max-width: 767px) {
+  .reviews-slider__pagination {
+    display: none;
+  }
+}

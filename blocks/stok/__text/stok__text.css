@@ -8,3 +8,15 @@
 .stok__text:nth-child(3) {
   font: 600 24px "Montserrat", sans-serif;
 }
+
+@media screen and (max-width: 1023px) {
+  .stok__text {
+    font: 600 20px "Montserrat", sans-serif;
+    margin: 0 0 10px 22.5px;
+  }
+
+  .stok__text:nth-child(3) {
+    font: 600 16px "Montserrat", sans-serif;
+  }
+
+}

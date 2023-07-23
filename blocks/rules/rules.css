@@ -2,3 +2,9 @@
   margin: 160px 0 0 0 ;
   width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+  .rules {
+    margin: 64px 0 0 0
+  };
+}

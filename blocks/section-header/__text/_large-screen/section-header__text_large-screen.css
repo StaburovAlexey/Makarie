@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+  .section-header__text_large-screen {
+    display: none;
+  }
+}

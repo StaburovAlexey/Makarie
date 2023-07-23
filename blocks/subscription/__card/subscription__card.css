@@ -4,3 +4,11 @@
   flex-direction: column;
   gap: 30px;
 }
+
+@media screen and (max-width: 767px) {
+  .subscription__card {
+    width: calc(100% - 32px);
+    justify-content: center;
+    gap: 20px;
+  }
+}

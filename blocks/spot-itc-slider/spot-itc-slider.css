@@ -10,3 +10,11 @@
   width: 512px;
   height: 470px;
 }
+
+@media screen and (max-width: 767px) {
+  .spot-itc-slider {
+    width: 264px;
+    height: 244px;
+    bottom: -54px;
+  }
+}

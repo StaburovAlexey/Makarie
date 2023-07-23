@@ -2,4 +2,16 @@
   position: absolute;
   top: -54px;
   left: 0;
+  z-index: -10;
+}
+
+@media screen and (max-width: 768px){
+  .orange-dot-show-off {
+    width: 269px;
+    height: 249px;
+    object-fit: contain;
+    object-position: center;
+    left: -160px;
+    top: -15px;
+  }
 }

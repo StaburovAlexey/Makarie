@@ -4,3 +4,10 @@
   flex-direction: column;
   gap: 20px;
 }
+
+@media screen and (max-width: 767px) {
+  .bestiary-card__info {
+    margin: 20px 0 0 0;
+    gap: 10px;
+  }
+}

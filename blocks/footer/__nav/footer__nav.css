@@ -15,13 +15,35 @@
 
 
 .footer__nav>li {
-  color: #ffffff;
   text-align: left;
   font: 600 14px "Montserrat", sans-serif;
   width: 100%;
+
 }
 
-.footer__nav>li:hover {
+.footer__nav>li>a:hover {
   color: #f15a29;
   cursor: pointer;
+}
+
+.footer__nav>li>a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+@media screen and (max-width: 800px) {
+  .footer__nav {
+    position: absolute;
+    top: 107px;
+    left: 21px;
+    margin: 0;
+  }
+
+  .footer__nav:nth-of-type(2) {
+    position: absolute;
+    top: 107px;
+    left: 150px;
+    margin: 0;
+  }
 }

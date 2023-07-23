@@ -2,5 +2,17 @@
   position: absolute;
   top: -200px;
   right: 0;
-  z-index: -1;
+  z-index: -11;
+}
+
+
+@media screen and (max-width: 768px) {
+  .blue-dot-contacts {
+    width: 295px;
+    height: 273px;
+    object-fit: contain;
+    object-position: center;
+    right: -145px;
+    top: 80px;
+  }
 }

@@ -4,3 +4,10 @@
   right: -52px;
 }
 
+@media screen and (max-width: 767px){
+  .animation-fish__fish {
+    width: 179px;
+    height: 146px;
+    
+  }
+}

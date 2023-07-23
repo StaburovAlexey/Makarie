@@ -1,10 +1,18 @@
 .price__cards {
-  margin: 123px 0 0;
+  margin: 123px auto 0;
   list-style: none;
-  padding: 0 181px;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   gap: 33px 24px;
   justify-content: center;
+  max-width: 918px;
 
+}
+
+@media screen and (max-width: 767px){
+.price__cards {
+  gap: 20px 16px;
+  margin: 40px auto 0;
+}
 }

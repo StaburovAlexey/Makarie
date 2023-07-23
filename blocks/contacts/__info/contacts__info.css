@@ -4,3 +4,12 @@
   max-width: 744px;
   gap: 60px;
 }
+
+@media screen and (max-width: 767px) {
+  .contacts__info {
+    margin: 40px auto 0;
+    flex-direction: column;
+    width: calc(100% - 74px);
+    gap: 30px;
+  }
+}

@@ -7,6 +7,13 @@
   width: 40px;
   height: 40px;
   bottom: 0;
-  left: 0;
+  right: 169px;
+  z-index: 50;
 
+}
+
+@media screen and (max-width: 767px) {
+  .reviews-slider__button-prev {
+    left: 0;
+  }
 }

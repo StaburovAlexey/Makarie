@@ -15,3 +15,18 @@
   margin: 0;
   vertical-align: middle;
 }
+
+@media screen and (max-width: 767px) {
+  .show-off-form__section-btn-sub {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    
+  }
+
+  .show-off-form__section-btn-sub>p {
+    width: 343px;
+
+  }
+}

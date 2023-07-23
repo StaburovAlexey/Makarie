@@ -12,3 +12,10 @@
 .rules__info-text:last-child {
   margin: 20px 0 0 0;
 }
+
+@media screen and (max-width: 767px) {
+  .rules__info-text {
+    font-size: 14px;
+    max-width: 343px;
+  }
+}

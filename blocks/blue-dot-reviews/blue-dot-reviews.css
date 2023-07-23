@@ -2,5 +2,16 @@
   position: absolute;
   right: 0;
   top: -142px;
-  z-index: -1;
+  z-index: -5;
+}
+
+@media screen and (max-width: 1024px) {
+  .blue-dot-review {
+    width: 297px;
+    height: 281px;
+    object-fit: contain;
+    object-position: center;
+    top: -65px;
+    right: -140px;
+  }
 }

@@ -2,3 +2,12 @@
   margin: 75px auto 0;
   width: calc(100% - 48px);
 }
+
+@media screen and (max-width: 767px){
+  .contacts__map {
+    border-radius: 50px;
+    width: calc(100% - 32px);
+    height: 290px;
+    margin: 40px auto 0;
+  }
+}

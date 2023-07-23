@@ -5,4 +5,16 @@
   position: absolute;
   top: -242px;
   right: 0;
+  z-index: -5;
+  display: block;
+}
+
+@media screen and (max-width: 767px){
+.orange-dot-bestiary {
+  width: 313px;
+  height: 295px;
+  top: -177px;
+  right: -150px;
+
+}
 }

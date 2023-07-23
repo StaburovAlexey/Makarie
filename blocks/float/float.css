@@ -1,0 +1,23 @@
+.float {
+  width: 81px;
+  height: 69px;
+}
+
+.float path:nth-child(1) {
+  fill: transparent;
+}
+
+.float path:nth-child(2) {
+  fill: transparent;
+}
+
+.float path:nth-child(3) {
+  fill: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .float {
+    width: 46px;
+    height: 40px;
+  }
+}

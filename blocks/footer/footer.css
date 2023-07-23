@@ -7,3 +7,12 @@
   display: flex;
   position: relative;
 }
+
+@media screen and (max-width: 800px) {
+  .footer{
+    width: calc(100% - 32px);
+    margin: 30px auto 0;
+    height: 368px;
+    padding: 0;
+  }
+}

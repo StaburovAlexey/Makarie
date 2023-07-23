@@ -2,3 +2,12 @@
   display: flex;
   gap: 68px;
 }
+
+@media screen and (max-width: 1080px) {
+  .terrain-section__btns {
+    order: 1;
+    justify-content:space-between;
+    width: 100%;
+    margin: 30px 0 0 0;
+  }
+}

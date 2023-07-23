@@ -1,3 +1,11 @@
 .rules__info {
   margin: 0;
+  max-width: 499px;
+}
+
+@media screen and (max-width: 767px) {
+  .rules__info {
+    max-width: 343px;
+    margin: 0 auto;
+  }
 }

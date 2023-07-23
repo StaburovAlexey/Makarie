@@ -5,3 +5,10 @@
   text-transform: uppercase;
   margin: 45px 0 19px 53px;
 }
+
+@media screen and (max-width: 1023px){
+  .stok__header {
+    font: 500 28px "Unbounded", sans-serif;
+    margin: 29px 0 20px 22.5px;
+  }
+}

@@ -2,17 +2,20 @@
   display: flex;
   justify-content: space-between;
   width: 750px;
-  margin: 49px 0 0 0;
+  margin: 0;
+  background-color: white;
 }
 
-@media screen and (min-width: 1281px) {
+@media screen and (max-width: 1279px) {
+
   .header__nav {
-    width: 70%;
+    width: 60%;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
+
   .header__nav {
-    width: 60%;
+    display: none;
   }
 }

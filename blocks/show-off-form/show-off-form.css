@@ -5,3 +5,12 @@
   gap: 24px;
   justify-content: center;
 }
+
+@media screen and (max-width: 767px) {
+  .show-off-form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 32px);
+  }
+}

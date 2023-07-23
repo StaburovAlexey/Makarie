@@ -3,4 +3,23 @@
   width: calc(100% - 154px);
   display: flex;
   justify-content: space-between;
+
+}
+
+
+@media screen and (max-width: 1023px) {
+  .rules__section {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .rules__section {
+    margin: 40px auto 0;
+    flex-direction: column;
+    width: calc(100% - 32px);
+
+  }
 }

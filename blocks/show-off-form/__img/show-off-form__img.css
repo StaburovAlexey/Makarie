@@ -39,3 +39,9 @@
   object-fit: contain;
   object-position: center;
 }
+
+@media screen and (max-width: 767px) {
+  .show-off-form__img {
+    width: 100%;
+  }
+}

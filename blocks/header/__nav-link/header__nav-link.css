@@ -10,14 +10,8 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 1281px) {
+@media screen and (max-width: 1279px) {
   .header__nav-link {
-    font-size: 1.3vw;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .header__nav-link {
-    font-size: 1.1vw;
+    font-size: 1vw;
   }
 }

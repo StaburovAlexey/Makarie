@@ -1,8 +1,18 @@
 .terrain-section__header {
   color: #0062bd;
   text-align: left;
-  font: 700 24px "Unbounded", sans-serif;
+  font-family: "Unbounded", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
   text-transform: uppercase;
-  max-width: 394px;
+  min-width: 343px;
   margin: 58px 0 25px;
+}
+
+@media screen and (max-width: 1080px) {
+  .terrain-section__header {
+    order: 2;
+    font-size: 20px;
+    margin: 34px 0 20px;
+  }
 }

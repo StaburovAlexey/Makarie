@@ -1,0 +1,24 @@
+.burger-menu__nav-list {
+  list-style: none;
+  padding: 38px 0 38px 0;
+  margin: 0 0 0 38px;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.burger-menu__nav-list>li>a {
+  text-decoration: none;
+  color: #FFF;
+  margin: 0;
+}
+
+.burger-menu__nav-list>li>a:hover {
+  color:#f15a29;
+  ;
+}

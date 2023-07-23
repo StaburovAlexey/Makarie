@@ -3,3 +3,9 @@
   box-sizing: border-box;
   display: block;
 }
+
+@media screen and (max-width: 767px) {
+  .bestiary-card {
+    width: 163px;
+  }
+}

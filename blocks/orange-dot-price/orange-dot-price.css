@@ -4,3 +4,15 @@
   left: 0;
   top: -250px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .orange-dot-price{
+    width: 261px;
+    height: 253px;
+    object-fit: contain;
+    object-position: center;
+    top: -40px;
+    left: -80px;
+  }
+}

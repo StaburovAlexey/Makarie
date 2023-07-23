@@ -1,0 +1,10 @@
+.terrain-section__info {
+  width: 343px;
+}
+
+@media screen and (max-width: 1080px){
+  .terrain-section__info {
+    display: flex;
+    flex-flow: wrap;
+  }
+}

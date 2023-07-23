@@ -3,3 +3,11 @@
   margin: 160px 0 0 0;
   position: relative;
 }
+
+@media screen and (max-width: 767px){
+  .contacts {
+
+    margin: 70px auto 0;
+    align-self: center;
+  }
+}

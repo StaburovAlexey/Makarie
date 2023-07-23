@@ -1,0 +1,26 @@
+.burger-menu_active {
+  display: block;
+  animation-name: down;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes down {
+  0% {
+    visibility: visible;
+    transform: translateY(-100%);
+  }
+
+  70% {
+    transform: translateY(2.5%);
+    visibility: visible;
+  }
+
+  100% {
+    transform: translateY(0);
+    visibility: visible;
+  }
+}

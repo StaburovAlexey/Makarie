@@ -4,8 +4,20 @@
   height: 40px;
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 24px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  z-index: 50;
+}
+
+@media screen and (max-width: 767px) {
+  .reviews-slider__button-next {
+    right: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .reviews-slider__button-next {
+  }
 }

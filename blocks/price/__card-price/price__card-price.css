@@ -1,6 +1,6 @@
 .price__card-price {
   color: #FFF;
-  font-family: Unbounded;
+  font-family: "Unbounded";
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -10,4 +10,12 @@
   position: absolute;
   bottom: 17px;
   left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .price__card-price {
+    bottom: 17px;
+    left: 15px;
+    font-size: 18px;
+  }
 }

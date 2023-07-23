@@ -10,4 +10,10 @@
   max-width: 171px;
 }
 
+@media screen and (max-width: 767px) {
+  .subscription__price-block-text {
+    
+  }
+}
+
 

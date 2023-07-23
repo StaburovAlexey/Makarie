@@ -14,3 +14,10 @@
   color: #0062BD;
   font-weight: 600;
 }
+
+@media screen and (max-width: 767px) {
+  .subscription__text {
+    font-size: 14px;
+    max-width: 300px;
+  }
+}

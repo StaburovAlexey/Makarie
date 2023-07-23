@@ -1,11 +1,28 @@
 .header {
-  width: calc(100% - 48px);
+  width: 100%;
   padding: 0 24px;
   display: flex;
   justify-content: space-between;
-  min-height: 97px;
-  border-radius: 0px 0px 25px 25px;
-  position: fixed;
-  z-index: 100;
+  align-items: center;
+  height: 97px;
+  border-radius: 0 0 25px 25px;
+  z-index: 10;
   background-color: white;
+  box-sizing: border-box;
+  position: fixed;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    height: 55px;
+    padding: 0 18px;
+    background-color: white;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .header {
+    gap: 38px;
+  }
 }

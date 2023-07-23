@@ -1,7 +1,7 @@
 .subscription__img-card {
   display: block;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   max-height: 277px;
   box-sizing: border-box;

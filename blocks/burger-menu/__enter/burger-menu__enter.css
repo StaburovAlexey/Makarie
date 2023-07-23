@@ -1,0 +1,22 @@
+.burger-menu__enter {
+  width: 36px;
+  height: 36px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-image: url(../../../image/burger_on.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 767px) {
+  .burger-menu__enter {
+    display: block;
+  }
+
+}

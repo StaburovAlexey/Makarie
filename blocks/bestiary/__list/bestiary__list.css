@@ -7,3 +7,10 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+@media screen and (max-width: 767px) {
+  .bestiary__list {
+    margin: 40px auto 0;
+    gap: 30px 16px;
+  }
+}

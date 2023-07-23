@@ -4,3 +4,9 @@
   object-fit: contain;
   margin: 48px 58px 48px 0;
 }
+
+@media screen and (max-width: 767px){
+  .stok__icon {
+    display: none;
+  }
+}

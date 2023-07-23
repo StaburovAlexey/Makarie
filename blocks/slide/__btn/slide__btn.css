@@ -7,6 +7,23 @@
   color: #ffffff;
   font: 500 12px "Unbounded", sans-serif;
   text-transform: uppercase;
-  margin: 89px 0 0 105px;
+  margin: 0;
   cursor: pointer;
+  margin: 89px 0 0 105px;
+}
+
+@media screen and (max-width: 767px) {
+  .slide__btn {
+    width: 300px;
+    height: 40px;
+    margin: 34px 0 0 21px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .slide__btn {
+    width: 100%;
+    margin: 34px auto 0;
+
+  }
 }

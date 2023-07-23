@@ -4,3 +4,9 @@
   gap: 44px;
   margin: 20px 0 29px 0;
 }
+
+@media screen and (max-width: 800px) {
+  .footer__info-icons {
+    display: none;
+  }
+}

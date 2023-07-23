@@ -15,3 +15,9 @@
   flex-shrink: 0;
 
 }
+
+@media screen and (max-width: 767px){
+  .show-off-form__btn-sub {
+    width: 100%;
+  }
+}

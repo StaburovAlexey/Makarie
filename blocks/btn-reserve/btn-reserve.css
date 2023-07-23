@@ -9,7 +9,7 @@
   font: 500 12px "Unbounded", sans-serif;
   text-transform: uppercase;
   text-align: center;
-  margin: 31px 0 0 0;
+  margin: 0;
 }
 
 .btn-reserve:hover {
@@ -17,18 +17,10 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 2560px) {
-  .btn-reserve{
-    width: 370px;
-    height: 80px;
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 1900px){
-  .btn-reserve{
-    width: 185px;
-    height: 40px;
-    font-size: 12px;
+@media screen and (max-width: 1279px) {
+  .btn-reserve {
+    width: 166.5px;
+    height: 32px;
+    font-size: 10px;
   }
 }

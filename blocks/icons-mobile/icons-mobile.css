@@ -1,0 +1,22 @@
+.icons-mobile {
+  position: fixed;
+  width: calc(100% - 32px);
+  margin: 0 16px 0 16px;
+  height: 52px;
+  background-color: #F15A29;
+  border-radius: 25px 25px 0 0;
+  z-index: 50;
+  bottom: 0;
+  box-sizing: border-box;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .icons-mobile {
+    visibility: visible;
+  }
+}

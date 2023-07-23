@@ -12,3 +12,11 @@
 
 
 }
+
+@media screen and (max-width: 767px) {
+  .stok__btn-right {
+    top: calc(100% + 20px);
+    right: 22px;
+  }
+}
+

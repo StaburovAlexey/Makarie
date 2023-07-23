@@ -5,3 +5,12 @@
   gap: 24px;
   justify-content: center;
 }
+
+@media screen and (max-width: 1080px) {
+  .terrain-section {
+    margin: 40px auto 0;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+}

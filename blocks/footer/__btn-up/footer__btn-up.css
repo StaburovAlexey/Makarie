@@ -1,0 +1,22 @@
+.footer__btn-up {
+  border: none;
+  color: transparent;
+  background-image: url(../../../image/footer__btn-up.png);
+  width: 36px;
+  height: 36px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  right: 22px;
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .footer__btn-up {
+    display: block;
+  }
+}

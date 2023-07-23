@@ -1,0 +1,25 @@
+@keyframes up {
+  0% {
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(100%);
+
+  }
+
+  100% {
+    transform: translateY(100%);
+    visibility: hidden;
+  }
+}
+
+.burger-menu__animation {
+  animation-name: up;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}

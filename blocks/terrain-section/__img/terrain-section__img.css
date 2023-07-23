@@ -1,4 +1,13 @@
 .terrain-section__img {
-  min-width: 709px;
-  height: auto;
+  width: 709px;
+  height: 457px;
+  object-fit: contain;
+  flex-shrink: 1;
+}
+
+@media screen and (max-width: 787px) {
+  .terrain-section__img {
+    width: 343px;
+    height: 221px;
+  }
 }

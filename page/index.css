@@ -18,8 +18,11 @@
 @import url(../blocks/btn-prev/btn-prev.css);
 @import url(../blocks/btn-prev/_end/btn-prev_end.css);
 @import url(../blocks/section-header/section-header.css);
-@import url(../blocks/section-header/__animation/section-header__animation.css);
+@import url(../blocks/section-header/__float/section-header__animation.css);
 @import url(../blocks/section-header/__text/section-header__text.css);
+@import url(../blocks/section-header/__text/_large-screen/section-header__text_large-screen.css);
+@import url(../blocks/section-header/__text/_small-screen/section-header__text_small-screen.css);
+@import url(../blocks/float/float.css);
 @import url(../blocks/terrain/terrain.css);
 @import url(../blocks/terrain-section/terrain-section.css);
 @import url(../blocks/terrain-section/__btns/terrain-section__btns.css);
@@ -86,6 +89,8 @@
 @import url(../blocks/reviews-slider/__pagination/reviews-slider__pagination.css);
 @import url(../blocks/reviews-slider/__slide/reviews-slider__slide.css);
 @import url(../blocks/reviews-slider/__wrapper/reviews-slider__wrapper.css);
+@import url(../blocks/reviews-slider/__bullet/reviews-slider__bullet.css);
+@import url(../blocks/reviews-slider/__bullet/_active/reviews-slider__bullet_active.css);
 @import url(../blocks/blue-dot-reviews/blue-dot-reviews.css);
 @import url(../blocks/show-off/show-off.css);
 @import url(../blocks/show-off-form/show-off-form.css);
@@ -117,4 +122,18 @@
 @import url(../blocks/footer/__info/footer__info.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/float/__animation/float__animation.css);
+@import url(../blocks/swiper/swiper-bundle.min.css);
+@import url(../blocks/burger-menu/burger-menu.css);
+@import url(../blocks/burger-menu/__enter/burger-menu__enter.css);
+@import url(../blocks/footer/__btn-up/footer__btn-up.css);
+@import url(../blocks/burger-menu/burger-menu.css);
+@import url(../blocks/burger-menu/__nav-list/burger-menu__nav-list.css);
+@import url(../blocks/burger-menu/__nav/burger-menu__nav.css);
+@import url(../blocks/burger-menu/_active/burger-menu_active.css);
+@import url(../blocks/burger-menu/__enter/_active/burger-menu_active.css);
+@import url(../blocks/burger-menu/__header/burger-menu__header.css);
+@import url(../blocks/burger-menu/__animation/burger-menu__animation.css);
+@import url(../blocks/icons-mobile/__icon/icons-mobile__icon.css);
+@import url(../blocks/icons-mobile/icons-mobile.css);
 

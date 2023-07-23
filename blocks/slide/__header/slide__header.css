@@ -5,5 +5,14 @@
   line-height: normal;
   text-transform: uppercase;
   max-width: 565.5px;
+  margin: 0;
   margin: 110px 0 0 105px;
+}
+
+@media screen and (max-width: 767px) {
+  .slide__header {
+    font: 600 28px "Unbounded", sans-serif;
+    max-width: 300px;
+    margin: 23px 0 0 21px;
+  }
 }

@@ -3,6 +3,13 @@
   object-fit: contain;
   left: 30px;
   top: 0;
-
 }
 
+@media screen and (max-width: 767px) {
+  .animation-fish__algae {
+    width: 186px;
+    height: 193px;
+    object-position: center;
+    left: 0;
+  }
+}

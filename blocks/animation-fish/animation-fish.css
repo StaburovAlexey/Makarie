@@ -6,3 +6,10 @@
   position: relative;
   overflow: hidden;
 }
+
+@media screen and (max-width: 767px){
+  .animation-fish {
+    height: 193px;
+    border-radius: 50px;
+  }
+}

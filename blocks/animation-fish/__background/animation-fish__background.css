@@ -5,5 +5,13 @@
   border-radius: 90px;
   position: absolute;
   right: 0;
-  
+
+}
+
+@media screen and (max-width: 767px) {
+  .animation-fish__background {
+    width: 104px;
+    height: 193px;
+    border-radius: 50px;
+  }
 }

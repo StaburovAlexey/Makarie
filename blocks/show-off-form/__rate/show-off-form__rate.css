@@ -5,12 +5,19 @@
 
 .show-off-form__rate>span {
   color: #0062BD;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  vertical-align:top;
+  vertical-align: top;
   height: 24px;
   margin-right: 22px;
+}
+
+@media screen and (max-width: 767px) {
+  .show-off-form__rate {
+    margin: 30px 0 0 0;
+    text-align: center;
+  }
 }
