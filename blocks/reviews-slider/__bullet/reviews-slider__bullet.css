@@ -1,26 +1,16 @@
-.reviews-slider__bullet {
-  background-image: url(../../../image/bullet.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+.reviews-slider .swiper-pagination-bullet {
   width: 20px;
   height: 20px;
+  background-color: transparent;
+  border: 2px solid #0062BD;
+  opacity: 1;
+  box-sizing: border-box;
+
 }
 
-.swiper-pagination-bullet {
-  background-image: url(../../../image/bullet.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 20px;
-  height: 20px;
-}
-
-.swiper-pagination-bullet-active {
-  background-image: url(../../../../image/bullet-active.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+.reviews-slider .swiper-pagination-bullet-active {
+  box-sizing: border-box;
+  background-color: #0062BD;
   width: 16px;
   height: 16px;
 }

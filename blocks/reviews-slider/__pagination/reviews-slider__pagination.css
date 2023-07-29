@@ -1,8 +1,11 @@
 .reviews-slider__pagination {
   position: absolute;
-  z-index: -1;
+  z-index: 12;
   bottom: 10px;
   left: 54px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 @media screen and (max-width: 767px) {
