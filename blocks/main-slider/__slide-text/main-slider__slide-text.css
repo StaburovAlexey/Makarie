@@ -1,0 +1,19 @@
+.main-slider__slide-text {
+  color: #ffffff;
+  text-align: left;
+  font: 600 16px "Montserrat", sans-serif;
+  max-width: 394px;
+  min-height: 160px;
+  margin: 0;
+  margin: 20px 0 0 105px;
+
+}
+
+@media screen and (max-width: 767px) {
+  .main-slider__slide-text {
+    font: 600 14px "Montserrat", sans-serif;
+    max-width: 300px;
+    min-height: 99px;
+    margin: 187px 0 0 21px;
+  }
+}

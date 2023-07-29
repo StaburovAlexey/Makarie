@@ -6,6 +6,23 @@
   overflow: hidden;
 }
 
+.reviews-slider .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid #0062BD;
+  opacity: 1;
+  box-sizing: border-box;
+
+}
+
+.reviews-slider .swiper-pagination-bullet-active {
+  box-sizing: border-box;
+  background-color: #0062BD;
+  width: 16px;
+  height: 16px;
+}
+
 @media screen and (max-width: 425px){
   .reviews-slider {
     width: calc(100% - 16px);

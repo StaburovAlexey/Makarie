@@ -8,7 +8,7 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  z-index: 50;
+  z-index: 12;
 }
 
 @media screen and (max-width: 767px) {

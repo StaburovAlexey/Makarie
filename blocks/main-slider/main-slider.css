@@ -1,0 +1,39 @@
+.main-slider {
+  width: calc(100% - 48px);
+  margin: 14px auto 142px;
+  position: relative;
+}
+
+.main-slider .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  opacity: 1;
+  box-sizing: border-box;
+
+}
+
+.main-slider .swiper-pagination-bullet-active {
+  box-sizing: border-box;
+  background-color: white;
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 767px){
+  .main-slider {
+    width: calc(100% - 32px);
+    margin: 69px auto 60px;
+  }
+
+  .main-slider .swiper-pagination-bullet{
+    width: 16px;
+    height: 16px;
+  }
+
+  .main-slider .swiper-pagination-bullet-active {
+    width: 12px;
+    height: 12px;
+  }
+}
