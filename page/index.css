@@ -1,6 +1,15 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-@import url(../blocks/itc-slider/itc-slider.css);
+@import url(../blocks/main-slider/main-slider.css);
+@import url(../blocks/main-slider/__slide-btn/main-slider__slide-btn.css);
+@import url(../blocks/main-slider/__slide-header/main-slider__slide-header.css);
+@import url(../blocks/main-slider/__slide-text/main-slider__slide-text.css);
+@import url(../blocks/main-slider/__slide/main-slider__slide.css);
+@import url(../blocks/main-slider/__wrapper/main-slider__wrapper.css);
+@import url(../blocks/main-slider/__pagination/main-slider__pagination.css);
+@import url(../blocks/main-slider/);
+@import url(../blocks/main-slider/);
+@import url();
 @import url(../blocks/spot-itc-slider/spot-itc-slider.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
@@ -8,10 +17,6 @@
 @import url(../blocks/header/__nav-link/header__nav-link.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/btn-reserve/btn-reserve.css);
-@import url(../blocks/slide/slide.css);
-@import url(../blocks/slide/__text/slide__text.css);
-@import url(../blocks/slide/__header/slide__header.css);
-@import url(../blocks/slide/__btn/slide__btn.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/btn-next/btn-next.css);
 @import url(../blocks/btn-next/_end/btn-next_end.css);
@@ -89,8 +94,6 @@
 @import url(../blocks/reviews-slider/__pagination/reviews-slider__pagination.css);
 @import url(../blocks/reviews-slider/__slide/reviews-slider__slide.css);
 @import url(../blocks/reviews-slider/__wrapper/reviews-slider__wrapper.css);
-@import url(../blocks/reviews-slider/__bullet/reviews-slider__bullet.css);
-@import url(../blocks/reviews-slider/__bullet/_active/reviews-slider__bullet_active.css);
 @import url(../blocks/blue-dot-reviews/blue-dot-reviews.css);
 @import url(../blocks/show-off/show-off.css);
 @import url(../blocks/show-off-form/show-off-form.css);

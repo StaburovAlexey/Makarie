@@ -1,4 +1,4 @@
-.slide__header {
+.main-slider__slide-header {
   color: #ffffff;
   text-align: left;
   font: 600 48px "Unbounded", sans-serif;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .slide__header {
+  .main-slider__slide-header {
     font: 600 28px "Unbounded", sans-serif;
     max-width: 300px;
     margin: 23px 0 0 21px;

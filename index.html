@@ -43,49 +43,45 @@
     <button class="burger-menu__enter" id="burger-open"></button>
   </header>
   <main class="main">
-    <section class="itc-slider" data-slider="itc-slider" data-loop="true" data-interval="4000" data-autoplay="true">
+    <section class="main-slider">
       <div class="spot-itc-slider"></div>
-      <div class="itc-slider-wrapper">
-        <div class="itc-slider-items">
-          <div class="itc-slider-item slide">
-            <h1 class="slide__header">Трофейная
-              рыбалка</h1>
-            <p class="slide__text">Поймайте рыбу свыше 5 кг, вызовите егеря, зарегистрируйте свою удачу, отпустите
-              рыбу
-              и получите бесплатную рыбалку на следующее посещение.
-              Акция действует только при условии отпуска рыбы в водоем БЕЗ травм.
+      <div class="main-slider__wrapper">
+        <div class="slide main-slider__slide">
+          <h1 class="main-slider__slide-header">Трофейная
+            рыбалка</h1>
+          <p class="main-slider__slide-text">Поймайте рыбу свыше 5 кг, вызовите егеря, зарегистрируйте свою удачу,
+            отпустите
+            рыбу
+            и получите бесплатную рыбалку на следующее посещение.
+            Акция действует только при условии отпуска рыбы в водоем БЕЗ травм.
 
-            </p>
-            <button class="slide__btn">подробнее</button>
-          </div>
-          <div class="itc-slider-item slide">
-            <h1 class="slide__header">Знай<br>
-              Наших</h1>
-            <p class="slide__text">Приезжайте в Макарье с фиременной наклейкой
-              на Вашем автомобиле и получите скидку 15% на весь асортимент наших товаров и услуг.
-              Акция действует только на владельца автомобиля с фирменной наклейкой.</p>
-            <button class="slide__btn">подробнее</button>
-          </div>
-          <div class="itc-slider-item slide">
-            <h1 class="slide__header">Наши<br>
-              правила</h1>
-            <p class="slide__text">Превыше всего,
-              безопасность
-              и Комфорт.
-              Ознакомьтесь
-              с правилами отдыха.
-              Соблюдая правила Вы обеспечиваете себе
-              и другим посетителям отличный отдых
-              с незабываемыми впечатлениями.</p>
-            <button class="slide__btn">подробнее</button>
-          </div>
+          </p>
+          <button class="main-slider__slide-btn">подробнее</button>
+        </div>
+        <div class="slide main-slider__slide">
+          <h1 class="main-slider__slide-header">Знай<br>
+            Наших</h1>
+          <p class="main-slider__slide-text">Приезжайте в Макарье с фиременной наклейкой
+            на Вашем автомобиле и получите скидку 15% на весь асортимент наших товаров и услуг.
+            Акция действует только на владельца автомобиля с фирменной наклейкой.</p>
+          <button class="main-slider__slide-btn">подробнее</button>
+        </div>
+        <div class="slide main-slider__slide">
+          <h1 class="main-slider__slide-header">Наши<br>
+            правила</h1>
+          <p class="main-slider__slide-text">Превыше всего,
+            безопасность
+            и Комфорт.
+            Ознакомьтесь
+            с правилами отдыха.
+            Соблюдая правила Вы обеспечиваете себе
+            и другим посетителям отличный отдых
+            с незабываемыми впечатлениями.</p>
+          <button class="main-slider__slide-btn">подробнее</button>
         </div>
       </div>
-      <ol class="itc-slider-indicators">
-        <li class="itc-slider-indicator" data-slide-to="0"></li>
-        <li class="itc-slider-indicator" data-slide-to="1"></li>
-        <li class="itc-slider-indicator" data-slide-to="2"></li>
-      </ol>
+      <div class="main-slider__pagination">
+      </div>
     </section>
     <div class="terrain" id="terrain">
       <div class="section-header">
@@ -674,17 +670,17 @@
         <h2 class="section-header__text section-header__text_large-screen">похвастайся уловом</h2>
         <h2 class="section-header__text section-header__text_small-screen">похвастайся</h2>
       </div>
-      <form action="" class="show-off-form">
+      <form action="#" class="show-off-form">
         <div class="show-off-form__img">
-          <input type="image" name="">
+          <input type="file" name="file">
           <img src="./image/photo.png" alt="">
           <span>Загрузите фото с уловом</span>
         </div>
         <div>
           <div class="show-off-form__name-tel">
-            <input type="name" name="" id="" placeholder="Ваше имя">
-            <input type="tel" name="" id="" placeholder="Ваш телефон">
-            <textarea maxlength="500" id="" cols="30" rows="10" class="show-off-form__review"
+            <input type="text" name="name" placeholder="Ваше имя">
+            <input type="tel" name="tel" placeholder="Ваш телефон">
+            <textarea maxlength="500" cols="30" rows="10" class="show-off-form__review"
               placeholder="Оставьте свой отзыв, не более 500 символов"></textarea>
           </div>
           <div class="show-off-form__rate">
@@ -762,8 +758,8 @@
       <div class="contacts__map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21625.647434804505!2d39.65494694952223!3d51.76957804886172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x413b15869e1f4cc9%3A0x55ea8a338993113e!2z0KDQvtGB0LA!5e0!3m2!1sru!2sru!4v1689607887915!5m2!1sru!2sru"
-          width="100%" height="100%" style="border:0; aspect-ratio: 2/1;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+          style="border:0; aspect-ratio: 2/1;" allowfullscreen="" loading="lazy"
+          ></iframe>
       </div>
     </div>
   </main>
@@ -801,7 +797,6 @@
     <a href="#" class="icons-mobile__icon"></a>
   </section>
   <script src="./scripts/swiper-bundle.min.js"></script>
-  <script src="./scripts/itc-slider.js" defer></script>
   <script src="./scripts/index.js"></script>
 </body>
 

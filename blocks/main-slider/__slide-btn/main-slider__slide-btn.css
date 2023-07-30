@@ -1,4 +1,4 @@
-.slide__btn {
+.main-slider__slide-btn {
   border-radius: 25px;
   border: 2px solid #FFF;
   background-color: transparent;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .slide__btn {
+  .main-slider__slide-btn {
     width: 300px;
     height: 40px;
     margin: 34px 0 0 21px;
@@ -21,7 +21,7 @@
 }
 
 @media screen and (max-width: 374px) {
-  .slide__btn {
+  .main-slider__slide-btn {
     width: 100%;
     margin: 34px auto 0;
 

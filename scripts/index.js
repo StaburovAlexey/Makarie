@@ -16,7 +16,23 @@ const btnUp = {
   },
 };
 
-const swiper = new Swiper(".reviews-slider", {
+const mainSlider = new Swiper(".main-slider", {
+  // Optional parameters
+  direction: "horizontal",
+  // Slide class
+  slideClass: "main-slider__slide",
+  //Wrapper class
+  wrapperClass: "main-slider__wrapper",
+  // If we need pagination
+  pagination: {
+    el: ".main-slider__pagination",
+    type: "bullets",
+  },
+  slidesPerView: 1,
+  spaceBetween: 24,
+});
+
+const reviewsSlider = new Swiper(".reviews-slider", {
   // Optional parameters
   direction: "horizontal",
   // Slide class

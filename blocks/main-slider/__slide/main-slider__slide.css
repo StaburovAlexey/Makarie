@@ -1,0 +1,40 @@
+.main-slider__slide {
+  height: 620px;
+  border-radius: 50px;
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+  transition-property: transform;
+  display: block
+}
+
+@media screen and (max-width: 767px){
+  .main-slider__slide {
+    height: 530px;
+    border-radius: 25px;
+  }
+}
+
+.main-slider__slide {
+  background-image: url(../../../image/swiper1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main-slider__slide:nth-child(2) {
+  background-image: url(../../../image/swiper2.jpg);
+
+}
+
+.main-slider__slide:nth-child(3) {
+  background-image: url(../../../image/swiper3.jpg);
+
+}
+
+@media screen and (max-width: 767px) {
+  .main-slider__slide:nth-child(1) {
+    background-position: 75%;
+  }
+}

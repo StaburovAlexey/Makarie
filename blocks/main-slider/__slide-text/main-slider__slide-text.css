@@ -1,4 +1,4 @@
-.slide__text {
+.main-slider__slide-text {
   color: #ffffff;
   text-align: left;
   font: 600 16px "Montserrat", sans-serif;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .slide__text {
+  .main-slider__slide-text {
     font: 600 14px "Montserrat", sans-serif;
     max-width: 300px;
     min-height: 99px;

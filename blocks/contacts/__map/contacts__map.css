@@ -3,6 +3,13 @@
   width: calc(100% - 48px);
 }
 
+.contacts__map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+
+
 @media screen and (max-width: 767px){
   .contacts__map {
     border-radius: 50px;
