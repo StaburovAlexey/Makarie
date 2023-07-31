@@ -14,3 +14,10 @@
     gap: 30px 16px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .bestiary__list {
+    margin: 240px 0 0;
+    gap: 120px 48px;
+  }
+}

@@ -20,3 +20,14 @@
   }
 
 }
+
+@media screen and (min-width: 2000px) {
+  .stok__text {
+    font: 600 64px "Montserrat", sans-serif;
+    margin: 0 0 20px 106px;
+  }
+
+  .stok__text:nth-child(3) {
+    font: 600 48px "Montserrat", sans-serif;
+  }
+}

@@ -7,9 +7,6 @@
 @import url(../blocks/main-slider/__slide/main-slider__slide.css);
 @import url(../blocks/main-slider/__wrapper/main-slider__wrapper.css);
 @import url(../blocks/main-slider/__pagination/main-slider__pagination.css);
-@import url(../blocks/main-slider/);
-@import url(../blocks/main-slider/);
-@import url();
 @import url(../blocks/spot-itc-slider/spot-itc-slider.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
@@ -139,4 +136,3 @@
 @import url(../blocks/burger-menu/__animation/burger-menu__animation.css);
 @import url(../blocks/icons-mobile/__icon/icons-mobile__icon.css);
 @import url(../blocks/icons-mobile/icons-mobile.css);
-

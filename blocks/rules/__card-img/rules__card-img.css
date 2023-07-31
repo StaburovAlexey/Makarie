@@ -4,3 +4,10 @@
   object-fit: contain;
   object-position: center;
 }
+
+@media screen and (min-width: 2000px) {
+  .rules__card-img {
+    width: 162px;
+    height: 162px;
+  }
+}

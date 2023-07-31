@@ -4,3 +4,11 @@
   height: 81px;
   gap: 25px;
 }
+
+@media screen and (min-width: 2000px) {
+  .rules__card {
+    max-width: 580px;
+    height: 162px;
+    gap: 50px;
+  }
+}

@@ -1,5 +1,5 @@
 .bestiary-card {
-  max-width: 290px;
+  width: 290px;
   box-sizing: border-box;
   display: block;
 }
@@ -7,5 +7,11 @@
 @media screen and (max-width: 767px) {
   .bestiary-card {
     width: 163px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .bestiary-card {
+    width: 580px;
   }
 }

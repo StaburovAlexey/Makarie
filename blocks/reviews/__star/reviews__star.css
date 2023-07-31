@@ -4,3 +4,10 @@
   object-fit: cover;
   object-position: center;
 }
+
+@media screen and (min-width: 2000px) {
+  .reviews__star {
+    width: 48px;
+    height: 48px;
+  }
+}

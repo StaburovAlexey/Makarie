@@ -16,3 +16,10 @@
     margin: 23px 0 0 21px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .main-slider__slide-header {
+    font: 600 96px "Unbounded", sans-serif;
+    margin: 220px 0 0 210px;
+  }
+}

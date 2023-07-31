@@ -16,3 +16,10 @@
     margin: 34px 0 20px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .terrain-section__header {
+    font-size: 48px;
+    margin: 116px 0 50px;
+  }
+}

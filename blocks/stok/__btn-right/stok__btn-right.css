@@ -1,11 +1,13 @@
 .stok__btn-right {
   background-image: url(../../../image/stok__btn-right.svg);
-  min-width: 40px;
-  min-height: 40px;
+  width: 40px;
+  height: 40px;
   background-color: transparent;
   border: none;
   padding: 0;
-  object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   position: absolute;
   top: 50%;
   right: calc(-40px - 26px);
@@ -20,3 +22,11 @@
   }
 }
 
+@media screen and (min-width: 2000px) {
+  .stok__btn-right {
+    width: 80px;
+    height: 80px;
+    right: calc(-80px - 52px);
+
+  }
+}

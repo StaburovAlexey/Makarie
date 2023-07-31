@@ -16,3 +16,14 @@
     z-index: -5;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .blue-dot-price {
+    width: 1014px;
+    height: 962px;
+    object-fit: contain;
+    object-position: center;
+    bottom: 0;
+    right: -260px;
+  }
+}

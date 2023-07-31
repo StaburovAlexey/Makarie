@@ -16,3 +16,14 @@
     top: 80px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .blue-dot-contacts {
+    position: absolute;
+    top: -400px;
+    right: -260px;
+    width: 1028px;
+    height: 954px;
+    object-fit: contain;
+  }
+}

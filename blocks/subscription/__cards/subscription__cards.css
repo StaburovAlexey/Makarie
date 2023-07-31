@@ -14,3 +14,12 @@
     gap: 40px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .subscription__cards {
+    margin: 240px auto 0;
+    gap: 26px;
+    width: calc(100% - 256px - 256px);
+    flex-wrap: nowrap;
+  }
+}

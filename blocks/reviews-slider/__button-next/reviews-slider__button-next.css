@@ -17,7 +17,10 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 2000px) {
   .reviews-slider__button-next {
+    width: 160px;
+    height: 80px;
+    right: 48px;
   }
 }

@@ -7,3 +7,11 @@
   line-height: normal;
   margin: 0 0 4px 0;
 }
+
+
+@media screen and (min-width: 2000px) {
+  .contacts__header-info {
+    font-size: 48px;
+    margin: 0 0 8px 0;
+  }
+}

@@ -26,3 +26,11 @@
     gap: 38px;
   }
 }
+
+@media screen and (min-width: 2000px){
+  .header {
+    height: 194px;
+    border-radius: 0 0 50px 50px;
+    padding: 0 48px;
+  }
+}

@@ -11,3 +11,10 @@
     left: 21px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .footer__info {
+    top: 94px;
+    right: 76px;
+  }
+}

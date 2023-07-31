@@ -11,3 +11,9 @@
     display: none;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .footer__info-tel {
+    font: 600 56px "Montserrat", sans-serif;
+  }
+}

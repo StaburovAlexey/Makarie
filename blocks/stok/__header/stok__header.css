@@ -12,3 +12,10 @@
     margin: 29px 0 20px 22.5px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .stok__header {
+    font: 500 72px "Unbounded", sans-serif;
+    margin: 90px 0 38px 106px;
+  }
+}

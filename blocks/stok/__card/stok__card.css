@@ -16,3 +16,11 @@
     padding-bottom: 50px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .stok__card {
+    margin: 240px auto 0;
+    width: calc(100% - 516px);
+    border-radius: 100px;
+  }
+}

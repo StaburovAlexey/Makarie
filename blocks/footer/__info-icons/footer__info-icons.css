@@ -10,3 +10,12 @@
     display: none;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .footer__info-icons {
+    max-width: 488px;
+    display: flex;
+    gap: 88px;
+    margin: 40px 0 58px 0;
+  }
+}

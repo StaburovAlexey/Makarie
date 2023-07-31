@@ -16,3 +16,11 @@
     left: -158px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .orange-dot-subscription {
+    width: 808px;
+    height: 750px;
+    left: -110px;
+  }
+}

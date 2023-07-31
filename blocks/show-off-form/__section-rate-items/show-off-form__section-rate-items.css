@@ -1,11 +1,12 @@
 .show-off-form__section-rate-items {
   position: relative;
-  display:inline-block;
+  display: inline-block;
   gap: 10px;
 }
 
 .show-off-form__section-rate-items::before {
   content: url(../../../image/stars_white.png) url(../../../image/stars_white.png) url(../../../image/stars_white.png) url(../../../image/stars_white.png) url(../../../image/stars_white.png);
   display: block;
-  
+  background-position: center;
+  background-size: contain;
 }

@@ -18,3 +18,10 @@
     margin: 40px auto 0;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .contacts__map {
+    margin: 150px auto 0;
+    width: calc(100% - 96px);
+  }
+}

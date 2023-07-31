@@ -21,3 +21,17 @@
     text-align: center;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .show-off-form__rate {
+    margin: 40px 0 0 0;
+  }
+
+
+  .show-off-form__rate>span {
+    font-size: 40px;
+    height: 48px;
+    margin-right: 44px;
+    vertical-align: baseline;
+  }
+}

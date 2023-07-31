@@ -13,3 +13,11 @@
     left: 0;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .animation-fish__algae {
+    width: 662px;
+    height: 682px;
+    left: 60px;
+  }
+}

@@ -19,3 +19,11 @@
   }
 }
 
+@media screen and (min-width: 2000px) {
+  .price__card {
+    width: 580px;
+    height: 720px;
+    padding: 36px 0 0 46px;
+    border-radius: 50px 50px 200px 50px;
+  }
+}

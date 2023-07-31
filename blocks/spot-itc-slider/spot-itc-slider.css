@@ -18,3 +18,11 @@
     bottom: -54px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .spot-itc-slider {
+    width: 1024px;
+    height: 940px;
+    bottom: -284px;
+  }
+}

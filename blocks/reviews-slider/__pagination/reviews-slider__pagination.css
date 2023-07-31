@@ -13,3 +13,11 @@
     display: none;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .reviews-slider__pagination {
+    gap: 40px;
+    bottom: 20px;
+    left: 108px;
+  }
+}

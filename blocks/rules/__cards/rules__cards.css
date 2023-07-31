@@ -14,3 +14,10 @@
     flex-direction: column;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .rules__cards {
+    gap: 60px 48px;
+    grid-template-columns: repeat(2, 580px);
+  }
+}

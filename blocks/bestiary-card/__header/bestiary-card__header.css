@@ -14,3 +14,9 @@
     font-size: 16px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .bestiary-card__header {
+    font-size: 36px;
+  }
+}
