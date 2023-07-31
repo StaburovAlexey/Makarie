@@ -17,3 +17,12 @@
     margin: 187px 0 0 21px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .main-slider__slide-text {
+    font: 600 32px "Montserrat", sans-serif;
+    max-width: 788px;
+    min-height: 320px;
+    margin: 40px 0 0 210px;
+  }
+}

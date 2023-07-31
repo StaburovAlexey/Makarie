@@ -19,3 +19,11 @@
     max-width: 343px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .rules__info-text {
+    font-size: 32px;
+    max-width: 998px;
+
+  }
+}

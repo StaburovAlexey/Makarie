@@ -14,3 +14,9 @@
     font-size: 14px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .price__card-header {
+    font-size: 48px;
+  }
+}

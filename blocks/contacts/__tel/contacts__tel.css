@@ -2,3 +2,9 @@
   width: 185px;
   flex-shrink: 0;
 }
+
+@media screen and (min-width: 2000px) {
+  .contacts__tel {
+    width: 370px;
+  }
+}

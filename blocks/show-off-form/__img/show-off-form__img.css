@@ -25,7 +25,7 @@
 .show-off-form__img>span {
   color: #FFF;
   text-align: center;
-  font-family: Unbounded;
+  font-family: "Unbounded", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -43,5 +43,28 @@
 @media screen and (max-width: 767px) {
   .show-off-form__img {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .show-off-form__img {
+    width: 580px;
+    height: 686px;
+    border-radius: 100px;
+    gap: 40px;
+  }
+
+  .show-off-form__img>input {
+    border-radius: 100px;
+  }
+
+  .show-off-form__img>span {
+    font-size: 32px;
+    width: 218px;
+  }
+
+  .show-off-form__img>img {
+    width: 104px;
+    height: 104px;
   }
 }

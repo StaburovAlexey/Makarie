@@ -9,12 +9,19 @@
   display: block;
 }
 
-@media screen and (max-width: 767px){
-.orange-dot-bestiary {
-  width: 313px;
-  height: 295px;
-  top: -177px;
-  right: -150px;
+@media screen and (max-width: 767px) {
+  .orange-dot-bestiary {
+    width: 313px;
+    height: 295px;
+    top: -177px;
+    right: -150px;
 
+  }
 }
+
+@media screen and (min-width: 2000px) {
+  .orange-dot-bestiary {
+    width: 710px;
+    height: 1240px;
+  }
 }

@@ -10,3 +10,11 @@
     display: none;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .stok__icon {
+    width: 280px;
+    height: 280px;
+    margin: 96px 116px 96px 0;
+  }
+}

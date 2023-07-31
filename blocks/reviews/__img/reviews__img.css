@@ -12,3 +12,9 @@
     border-radius: 25px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .reviews__img {
+    border-radius: 100px;
+  }
+}

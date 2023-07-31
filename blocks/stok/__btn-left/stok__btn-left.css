@@ -3,9 +3,11 @@
   width: 40px;
   height: 40px;
   background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   border: none;
   padding: 0;
-  object-fit: contain;
   position: absolute;
   top: 50%;
   left: calc(-40px - 26px);
@@ -17,3 +19,13 @@
     left: 22px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .stok__btn-left {
+    width: 80px;
+    height: 80px;
+    left: calc(-80px - 52px);
+
+  }
+}
+

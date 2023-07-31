@@ -6,3 +6,13 @@
 .reviews-slider__slide:first-of-type {
   width: 395px;
 }
+
+@media screen and (min-width: 2000px) {
+  .reviews-slider__slide {
+    width: 580px;
+  }
+
+  .reviews-slider__slide:first-of-type{
+    width: 790px;
+  }
+}

@@ -1,10 +1,16 @@
 .rules {
-  margin: 160px 0 0 0 ;
+  margin: 160px 0 0 0;
   width: 100%;
 }
 
 @media screen and (max-width: 767px) {
   .rules {
-    margin: 64px 0 0 0
-  };
+    margin: 64px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .rules {
+    margin: 320px 0 0 0;
+  }
 }

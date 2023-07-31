@@ -23,3 +23,10 @@
 
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .rules__section {
+    margin: 240px auto 0;
+    width: calc(100% - 308px);
+  }
+}

@@ -7,3 +7,10 @@
   border: none;
   background-color: transparent;
 }
+
+@media screen and (min-width: 2000px) {
+  .btn-prev {
+    width: 80px;
+    height: 80px;
+  }
+}

@@ -18,7 +18,17 @@
 }
 
 @media screen and (max-width: 767px) {
-  .bestiary-card__text:last-child{
-font-size: 14px;
+  .bestiary-card__text:last-child {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .bestiary-card__text {
+    font-size: 36px;
+  }
+
+  .bestiary-card__text:last-child {
+    font-size: 32px;
   }
 }

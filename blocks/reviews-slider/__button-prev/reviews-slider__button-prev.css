@@ -17,3 +17,11 @@
     left: 0;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .reviews-slider__button-prev {
+    width: 80px;
+    height: 80px;
+    right: 338px;
+  }
+}

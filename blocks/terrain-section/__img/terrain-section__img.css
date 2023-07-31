@@ -11,3 +11,10 @@
     height: 221px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .terrain-section__img {
+    width: 1478px;
+    height: 914px;
+  }
+}

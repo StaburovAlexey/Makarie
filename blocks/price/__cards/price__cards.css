@@ -6,13 +6,21 @@
   flex-wrap: wrap;
   gap: 33px 24px;
   justify-content: center;
-  max-width: 918px;
+  width: 918px;
 
 }
 
-@media screen and (max-width: 767px){
-.price__cards {
-  gap: 20px 16px;
-  margin: 40px auto 0;
+@media screen and (max-width: 767px) {
+  .price__cards {
+    gap: 20px 16px;
+    margin: 40px auto 0;
+  }
 }
+
+@media screen and (min-width: 2000px) {
+  .price__cards {
+    margin: 246px auto 0;
+    gap: 66px 48px;
+    width: 1836px;
+  }
 }

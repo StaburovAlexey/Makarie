@@ -15,3 +15,13 @@
     top: -15px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .orange-dot-show-off {
+    width: 808px;
+    height: 750px;
+    object-fit: contain;
+    object-position: center;
+    left: -180px;
+  }
+}

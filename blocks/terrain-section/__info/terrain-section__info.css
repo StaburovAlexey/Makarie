@@ -8,3 +8,9 @@
     flex-flow: wrap;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .terrain-section__info {
+    width: 686px;
+  }
+}

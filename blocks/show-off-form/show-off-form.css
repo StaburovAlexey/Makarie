@@ -14,3 +14,11 @@
     width: calc(100% - 32px);
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .show-off-form {
+    margin: 240px auto 0;
+    gap: 48px;
+    width: calc(100% - 304px);
+  }
+}

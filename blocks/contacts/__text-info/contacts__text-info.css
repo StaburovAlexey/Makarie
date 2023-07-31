@@ -7,3 +7,9 @@
   line-height: normal;
   margin: 0;
 }
+
+@media screen and (min-width: 2000px) {
+  .contacts__text-info {
+    font-size: 40px;
+  }
+}

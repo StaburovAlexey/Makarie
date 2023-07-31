@@ -23,7 +23,7 @@
   height: 16px;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
   .reviews-slider {
     width: calc(100% - 16px);
     margin: 46px 0 0 16px;
@@ -32,4 +32,21 @@
   }
 }
 
+@media screen and (min-width: 2000px) {
+  .reviews-slider {
+    width: calc(100% - 96px);
+    min-height: 1356px;
+    margin: 240px auto 0;
+  }
 
+  .reviews-slider .swiper-pagination-bullet {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #0062BD;
+  }
+
+  .reviews-slider .swiper-pagination-bullet-active {
+    width: 32px;
+    height: 32px;
+  }
+}

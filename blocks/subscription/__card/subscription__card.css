@@ -12,3 +12,10 @@
     gap: 20px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .subscription__card {
+    width: 998px;
+    gap: 60px;
+  }
+}

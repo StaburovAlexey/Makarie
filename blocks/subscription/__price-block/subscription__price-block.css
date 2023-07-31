@@ -11,3 +11,9 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .subscription__price-block {
+    width: 890px;
+  }
+}

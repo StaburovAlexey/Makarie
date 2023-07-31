@@ -4,3 +4,10 @@
   width: 80px;
   height: 40px;
 }
+
+@media screen and (min-width: 2000px) {
+  .btn-next_end {
+    width: 160px;
+    height: 80px;
+  }
+}

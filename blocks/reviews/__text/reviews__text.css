@@ -13,3 +13,9 @@
     font-size: 14px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .reviews__text {
+    font-size: 32px;
+  }
+}

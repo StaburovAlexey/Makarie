@@ -9,3 +9,9 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .rules__info {
+    max-width: 998px;
+  }
+}

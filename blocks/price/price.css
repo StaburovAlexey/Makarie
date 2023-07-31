@@ -11,3 +11,10 @@
     padding: 0 0 60px 0;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .price {
+    margin: 318px 0 0 0;
+    padding: 0 0 352px 0;
+  }
+}

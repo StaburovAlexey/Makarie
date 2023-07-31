@@ -22,3 +22,9 @@
 .footer__info-icon:nth-of-type(4) {
   background-image: url(../../../image/cib_odnoklassniki-icon.png);
 }
+
+@media screen and (min-width: 2000px) {
+  .footer__info-icon {
+    width: 56px;
+  }
+}

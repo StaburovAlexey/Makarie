@@ -4,10 +4,20 @@
   right: -52px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
   .animation-fish__fish {
     width: 179px;
     height: 146px;
-    
+
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .animation-fish__fish {
+    width: 636px;
+    height: 514px;
+    object-fit: contain;
+    object-position: center;
+    right: -190px;
   }
 }

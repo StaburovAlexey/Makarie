@@ -6,3 +6,9 @@
   max-height: 277px;
   box-sizing: border-box;
 }
+
+@media screen and (min-width: 2000px) {
+  .subscription__img-card {
+    max-height: 554px;
+  }
+}

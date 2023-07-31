@@ -24,3 +24,12 @@
     font-size: 10px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .btn-reserve {
+    border-radius: 50px;
+    width: calc(185px * 2);
+    height: calc(40px * 2);
+    font: 500 24px "Unbounded", sans-serif;
+  }
+}

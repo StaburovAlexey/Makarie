@@ -15,3 +15,11 @@
     border-radius: 50px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .animation-fish__background {
+    width: 370px;
+    height: 680px;
+    border-radius: 180px;
+  }
+}

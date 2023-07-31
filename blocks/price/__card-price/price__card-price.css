@@ -19,3 +19,11 @@
     font-size: 18px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .price__card-price {
+    font-size: 48px;
+    bottom: 34px;
+    left: 40px;
+  }
+}

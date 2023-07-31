@@ -22,11 +22,22 @@
     justify-content: center;
     align-items: center;
     gap: 42px;
-    
+
   }
 
   .show-off-form__section-btn-sub>p {
     width: 343px;
 
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .show-off-form__section-btn-sub {
+    gap: 34px;
+    margin-top: 60px;
+  }
+
+  .show-off-form__section-btn-sub>p {
+    font-size: 28px;
   }
 }

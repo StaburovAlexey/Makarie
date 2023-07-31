@@ -21,3 +21,12 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .show-off-form__btn-sub {
+    width: 506px;
+    height: 78px;
+    border-radius: 50px;
+    font-size: 24px;
+  }
+}

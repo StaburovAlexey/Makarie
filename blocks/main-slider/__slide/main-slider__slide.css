@@ -38,3 +38,9 @@
     background-position: 75%;
   }
 }
+
+@media screen and (min-width: 2000px){
+  .main-slider__slide {
+    height: 1240px;
+  }
+}
